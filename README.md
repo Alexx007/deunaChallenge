@@ -1,5 +1,5 @@
 # Live coding Challenge: Nelson Rodriguez QA
-Codigo para ejecutar: npx playwright test tests/e2e/liveCodingChallenge.spec.ts --project=chromium  
+
 
 #Descripción del Proyecto#
 El objetivo principal fue construir desde cero un framework de automatización de pruebas E2E utilizando buenas prácticas, patrones de diseño (como Page Object Model), validaciones de red (network requests), y configuración de CI
@@ -15,3 +15,11 @@ Cree dos test dentro del archivo 'liveCodingChallenge.spec' uno que solo es e2e 
 -Simulación de pago
 
 -Validación de pago exitoso
+
+#Requisitos para ejecutar#
+Node.js
+npm
+npm install -g typescript
+npx playwright test
+
+Codigo para ejecutar: npx playwright test tests/e2e/liveCodingChallenge.spec.ts --project=chromium  
